@@ -1,0 +1,48 @@
+EJERCICIOS:
+1) Saludo: Crear objeto cliente que contiene su nombre y edad. Se debe crear una función 
+llamada saludarCliente que imprima un mensaje de saludo utilizando la información 
+proporcionada en el objeto.
+2) Crear un objeto Libro que contiene el título y el autor. Se debe crear una función llamada 
+mostrarInfo que imprima la información del libro.
+3) Crear un objeto Banco que contiene el nombre del banco y una lista de clientes (objetos de la 
+clase Cliente). Se debe crear una función llamada agregarCliente para añadir un cliente a la lista y
+otra función llamada mostrarClientes que imprima la información de todos los clientes del banco.
+4) Cuenta Bancaria
+Enunciado:
+Desarrolle una clase CuentaBancaria que permita realizar las siguientes operaciones:
+Apertura de cuenta:
+La apertura de la cuenta debe requerir el nombre del titular y el saldo inicial.
+El saldo inicial debe ser un valor positivo.
+Consulta de saldo:
+Debe permitir consultar el saldo actual de la cuenta.
+Depósito:
+Debe permitir realizar depósitos en la cuenta.
+El monto del depósito debe ser un valor positivo.
+Retiro:
+Debe permitir realizar retiros de la cuenta.
+El monto del retiro no debe superar el saldo disponible.
+Se debe mostrar un mensaje en caso de que el retiro sea superior al saldo disponible.
+Restricciones:
+No se deben permitir retiros que dejen la cuenta con saldo negativo.
+Se debe registrar el historial de transacciones (depósitos y retiros) en un array.
+5) Gestión de Alumnos
+Enunciado:
+Desarrolle una clase Alumno y una clase GestiónAlumnos que permitan realizar las siguientes 
+operaciones:
+Clase Alumno:
+Almacenar la información de un alumno:
+Número de matrícula
+Nombre del alumno
+Apellidos del alumno
+Fecha de nacimiento
+Notas de las asignaturas (en un array)
+Calcular la media de las notas del alumno.
+Permitir consultar la información del alumno.
+Clase GestiónAlumnos:
+Almacenar un conjunto de alumnos.
+Agregar nuevos alumnos a la gestión.
+Eliminar alumnos de la gestión.
+Buscar alumnos por número de matrícula o nombre.
+Actualizar las notas de un alumno en una asignatura específica.
+Mostrar un listado de todos los alumnos en la gestión.
+Mostrar la media general de las notas de todos los alumnos
